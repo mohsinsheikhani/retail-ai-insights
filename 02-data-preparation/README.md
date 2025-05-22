@@ -22,7 +22,7 @@ Transform raw data into structured, enriched, and purpose-specific datasets read
 
 ```
 git pull https://github.com/mohsinsheikhani/retail-ai-insights.git
-cd retail-ai-insights/01-data-ingestion
+cd retail-ai-insights/02-data-preparation
 npm i
 cdk deploy
 ```
