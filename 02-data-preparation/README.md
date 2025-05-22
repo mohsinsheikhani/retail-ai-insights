@@ -18,6 +18,17 @@ Transform raw data into structured, enriched, and purpose-specific datasets read
 
 ---
 
+## Setup Instructions
+
+```
+git pull https://github.com/mohsinsheikhani/retail-ai-insights.git
+cd retail-ai-insights/01-data-ingestion
+npm i
+cdk deploy
+```
+
+---
+
 ## Buckets Created
 
 | Bucket Purpose                      | Description                                   |
