@@ -1,4 +1,4 @@
-![15](https://github.com/user-attachments/assets/125d25e5-da2b-404a-8277-d73c409e710b)# Phase 02 – Data Preparation
+# Phase 02 – Data Preparation
 
 In this phase, we process raw event data into analytics- and AI-ready formats across **Bronze**, **Silver**, and **Gold** zones using AWS Glue. This step lays the foundation for our forecasting and recommendation workloads.
 
