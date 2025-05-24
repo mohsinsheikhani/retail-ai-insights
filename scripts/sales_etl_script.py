@@ -33,7 +33,7 @@ schema = StructType([
 ])
 
 # Read raw JSON data from Bronze Zone with the defined schema
-input_path = f"s3://{bronze_bucket}/dataset/2025/05/22/11/"
+input_path = f"s3://{bronze_bucket}/dataset/2025/05/23/11/"
 raw_df = spark.read.schema(schema).json(input_path)
 
 # Data Cleaning and Type Casting
