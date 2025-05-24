@@ -5,7 +5,7 @@ In this phase, we simulate a near real-time ingestion pipeline by streaming hist
 - **Amazon S3 (Bronze Zone)** – for long-term, immutable storage.
 - **Amazon DynamoDB** – for fast, low-latency access used by forecasting and recommendation engines.
 
-## Objective
+## 🎯 Objective
 
 Enable an event-driven ingestion pattern that mimics real-time user behavior (e.g. product views, purchases) , that lays the groundwork for both forecasting and recommendation systems.
 
