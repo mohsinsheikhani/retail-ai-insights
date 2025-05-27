@@ -65,10 +65,10 @@ export class DataPreparationStack extends cdk.Stack {
      * Glue ETL Resources
      **/
     new GlueResources(this, "GlueResources", {
-      bronzeBucket: bronzeBucket,
-      silverBucket: silverBucket,
-      goldBucket: goldBucket,
-      dataAssetsBucket: dataAssetsBucket,
+      bronzeBucket,
+      silverBucket,
+      goldBucket,
+      dataAssetsBucket,
     });
   }
 }

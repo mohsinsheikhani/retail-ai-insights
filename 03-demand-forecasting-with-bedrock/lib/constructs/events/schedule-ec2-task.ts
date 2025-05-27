@@ -22,8 +22,7 @@ export class ScheduleForecastTask extends Construct {
       entry: path.join(__dirname, "../../../lambda/start-instance/index.js"),
       timeout: cdk.Duration.seconds(10),
       environment: {
-        PERSONALIZE_CAMPAIGN_ARN:
-          "arn:aws:personalize:us-east-1:954976311760:campaign/retail-recommendation-campaign",
+        INSTANCE_ID: instanceId,
       },
     };
 
