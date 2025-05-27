@@ -59,6 +59,9 @@ Demand forecasting is a core business need in retail and e-commerce. This pipeli
 
 Each product in DynamoDB gets a `forecasted_demand` field updated with predicted 7-day sales, based on time series patterns and sales velocity.
 
+![Screenshot from 2025-05-23 11-32-40](https://github.com/user-attachments/assets/870675e9-704a-4530-9078-3a2f6ba6a748)
+
+
 ---
 
 ## 🙋‍♂️ Contact
