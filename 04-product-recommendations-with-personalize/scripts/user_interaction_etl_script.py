@@ -44,5 +44,3 @@ df_cleaned \
     .csv(output_path)
 
 job.commit()
-
-
