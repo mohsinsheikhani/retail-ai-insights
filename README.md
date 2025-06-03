@@ -1,6 +1,6 @@
 # Retail AI Insights: Demand Forecasting & Product Recommendations with AWS
 
-This project builds a cloud-native, AI-powered retail intelligence system that predicts product demand and recommends items to users — all using serverless AWS services and scalable MLOps practices.
+This project builds a cloud-native, AI-powered retail intelligence system that predicts product demand and recommends items to users, all using serverless AWS services and scalable MLOps practices.
 
 It is organized into 5 clear phases to demonstrate real-world infrastructure, AI integration, and automation.
 
@@ -23,6 +23,8 @@ This solution uses **AWS Bedrock**, **Amazon Personalize**, and other cloud-nati
 ---
 
 ## Architecture Overview
+
+![retail-ai](https://github.com/user-attachments/assets/c432e64f-9bfa-4a67-81cc-f3558bc26edd)
 
 ---
 
@@ -47,7 +49,7 @@ This solution uses **AWS Bedrock**, **Amazon Personalize**, and other cloud-nati
 | [02-data-preparation](./02-data-preparation)                                                 | Clean and structure data using AWS Glue; output to Silver & Gold zones                                                         |
 | [03-demand-forecasting-with-bedrock](./03-demand-forecasting-with-bedrock)                   | Use Bedrock models on EC2 to generate daily inventory forecasts                                                                |
 | [04-product-recommendations-with-personalize](./04-product-recommendations-with-personalize) | Recommend items via API using Amazon Personalize                                                                               |
-| [05-security-and-observability](./05-security-and-observability)                             | Ensuring IAM roles with least-privilege, running worklodas in private subnets, VPC endpoints, monitoring for the entire system |
+| 05-security-and-observability                             | Ensuring IAM roles with least-privilege, running worklodas in private subnets, VPC endpoints, monitoring for the entire system |
 
 ---
 
