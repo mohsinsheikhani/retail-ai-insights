@@ -19,6 +19,10 @@ Use AI to forecast product demand based on historical sales data, enabling proac
 
 2. An **EventBridge Rule** triggers this job **once every 24 hours**.
    - It invokes a **Lambda function** that starts the EC2 instance.
+  
+
+![phase03-forecasting-with-bedrock](https://github.com/user-attachments/assets/5f442d2a-8b7d-4f3c-a634-958d37093f3f)
+
 
 ---
 
