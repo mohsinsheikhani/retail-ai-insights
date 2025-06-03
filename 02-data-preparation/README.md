@@ -16,6 +16,8 @@ Transform raw data into structured, enriched, and purpose-specific datasets read
 | Silver | Cleaned & validated data via Glue ETL                   | Parquet       |
 | Gold   | Purpose-specific data for Forecasting & Recommendations | Parquet/CSV   |
 
+![phase02-data-preparation](https://github.com/user-attachments/assets/433962f6-b09b-4d2f-bae9-ceb8acf5d160)
+
 ---
 
 ## Setup Instructions
