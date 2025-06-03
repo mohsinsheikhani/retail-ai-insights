@@ -18,6 +18,8 @@ Enable an event-driven ingestion pattern that mimics real-time user behavior (e.
 3. A secondary script writes selected fields to **DynamoDB**, including:
    - `product_id`, `product_name`, `category`, `price`, `rating`
    - Plus: `current_stock` (randomly generated) and `forecasted_demand` (set to 0)
+  
+![phase01-data-ingestion](https://github.com/user-attachments/assets/de935a71-0d2c-4966-a060-3defe2c61e6a)
 
 ---
 
