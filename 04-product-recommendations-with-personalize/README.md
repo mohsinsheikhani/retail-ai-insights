@@ -2,7 +2,7 @@
 
 This phase focuses on building an AI-powered recommendation engine that delivers personalized product suggestions based on user behavior.
 
-Instead of limiting ourselves to basic ML experimentation, this step takes a production-ready approach using Amazon Personalize to generate real-time recommendations for customers—just like Netflix or Amazon.
+Instead of limiting ourselves to basic ML experimentation, this step takes a production-ready approach using Amazon Personalize to generate real-time recommendations for customers, just like Netflix or Amazon.
 
 ## 🎯 Objective
 
@@ -20,8 +20,8 @@ Enable a recommendation system that:
 2. Personalize returns similar `ITEM_ID`'s
 3. Lambda enriches results using DynamoDB
 4. Response is returned via API Gateway
-  
-![retail-ai](https://github.com/user-attachments/assets/98e2e3ce-3987-4fff-959d-d370a443c7ea)
+
+![Product Recommendations using Amazon Personalize](https://github.com/user-attachments/assets/9e0b1b14-2fca-46b7-8612-c4b2b8c366be)
 
 ---
 
