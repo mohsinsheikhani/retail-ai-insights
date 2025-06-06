@@ -1,6 +1,6 @@
 # Phase 02 – Data Preparation
 
-In this phase, we process raw event data into analytics- and AI-ready formats across **Bronze**, **Silver**, and **Gold** zones using AWS Glue. This step lays the foundation for our forecasting and recommendation workloads.
+In this phase, we process raw event data into analytics and AI-ready formats across **Bronze**, **Silver**, and **Gold** zones using AWS Glue. This step lays the foundation for our forecasting and recommendation workloads.
 
 ## 🎯 Objective
 
@@ -16,7 +16,7 @@ Transform raw data into structured, enriched, and purpose-specific datasets read
 | Silver | Cleaned & validated data via Glue ETL                   | Parquet       |
 | Gold   | Purpose-specific data for Forecasting & Recommendations | Parquet/CSV   |
 
-![phase02-data-preparation](https://github.com/user-attachments/assets/433962f6-b09b-4d2f-bae9-ceb8acf5d160)
+![Data Preparation using ETL Jobs with AWS Glue](https://github.com/user-attachments/assets/55f09424-aa45-4e1e-8399-ce50194808b9)
 
 ---
 
