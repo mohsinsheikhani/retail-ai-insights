@@ -1,6 +1,6 @@
 # Phase 03 – Demand Forecasting with Amazon Bedrock
 
-In this phase, we introduce a scheduled forecasting pipeline that predicts product demand for the next 7 days using historical sales data. This is where AI meets operations—running compute-heavy inference tasks using Bedrock on EC2.
+In this phase, we introduce a scheduled forecasting pipeline that predicts product demand for the next 7 days using historical sales data. This is where AI meets operations, running compute-heavy inference tasks using Bedrock on EC2.
 
 ## 🎯 Objective
 
@@ -20,9 +20,7 @@ Use AI to forecast product demand based on historical sales data, enabling proac
 2. An **EventBridge Rule** triggers this job **once every 24 hours**.
    - It invokes a **Lambda function** that starts the EC2 instance.
   
-
-![phase03-forecasting-with-bedrock](https://github.com/user-attachments/assets/5f442d2a-8b7d-4f3c-a634-958d37093f3f)
-
+![Forecasting job on EC2 using Amazon Bedrock, triggered by EventBrdige and Lambda](https://github.com/user-attachments/assets/f604c387-a05d-4d1e-900d-214c1e413aac)
 
 ---
 
