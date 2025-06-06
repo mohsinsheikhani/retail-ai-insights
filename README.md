@@ -24,7 +24,7 @@ This solution uses **AWS Bedrock**, **Amazon Personalize**, and other cloud-nati
 
 ## Architecture Overview
 
-![retail-ai](https://github.com/user-attachments/assets/c432e64f-9bfa-4a67-81cc-f3558bc26edd)
+![Cloud-Native AI Project on AWS for Product Forecasting and Product Recommendations](https://github.com/user-attachments/assets/a8bb4261-b95c-4e97-9098-e1d20057322e)
 
 ---
 
